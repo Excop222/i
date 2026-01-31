@@ -1,0 +1,61 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+/* PAGE BACKGROUND */
+body {
+    background: #0f0f0f;
+    font-family: system-ui, sans-serif;
+}
+/* FEED CARD */
+.feed {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 16px 0;
+}
+/* POST CARD */
+.post {
+    display: flex;
+    justify-content: center;
+}
+/* THE FLOATING BOX */
+.media {
+    width: 100%;
+    max-width: 420px;
+    height: 90vh;
+    background: white;
+    border-radius: 16px 16px 0 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+    border-radius: 16px;
+    margin: 24px auto;
+    object-fit: cover;
+    flex: 1;
+    overflow: hidden;
+    object-fit: cover;
+}
+.actions {
+    width: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    color: white;
+    flex-shrink: 0;
+    font-size: 28px;
+    background: none;
+    height: 500px;
+}
+.actions button,
+.actions span,
+.actions i{
+    font-size: 24px;
+}
